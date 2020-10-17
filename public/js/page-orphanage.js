@@ -7,7 +7,7 @@ const options = {
 };
 
 // create a map object
-const map = L.map("mapid", options).setView([-22.999329, -45.546364], 15);
+const map = L.map("mapid", options).setView([-22.999233074539646, -45.54621256655083], 15);
 
 // create and add tileLayer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
@@ -20,7 +20,7 @@ const icon = L.icon({
   popupAnchor: [170, 2],
 });
 
-L.marker([-22.999349, -45.548554], { icon }).addTo(map);
+L.marker([-22.999233074539646, -45.54621256655083], { icon }).addTo(map);
 
 /* image gallery */
 function selectImage(event) {

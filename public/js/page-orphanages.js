@@ -1,5 +1,5 @@
 // create a map object
-const map = L.map("mapid").setView([-22.999329,-45.546364], 15);
+const map = L.map("mapid").setView([-22.999233074539646, -45.54621256655083], 15);
 
 // create and add tileLayer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
@@ -24,4 +24,4 @@ const popup = L.popup({
 );
 
 /* create and add marker */
-L.marker([-22.999349,-45.548554], { icon }).addTo(map).bindPopup(popup);
+L.marker([-22.999233074539646, -45.54621256655083], { icon }).addTo(map).bindPopup(popup);
